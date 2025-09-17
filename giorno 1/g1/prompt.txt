@@ -1,0 +1,5 @@
+dato il seguente pseudocodice trrasforma in codice python/javascript che funziona:
+A= INT (INPUT " SCRIVI LA BASE DEL RETTANgOLO
+B= INT CINEUTE SCRIVI base rettangolo
+AREA RETTANgolO= A • B
+PRINt area rettANGOLO
