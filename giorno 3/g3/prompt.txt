@@ -1,21 +1,13 @@
-dato il seguente pseudocodice trrasforma in codice python/javascript che funziona:
-PRint "SCEGlI UN) 0PZIONE tra 1, 2,3)
-PRINT (0 PER uscire")
-SWITCH CASE :
-CASE1:
-PRINT (" ORZIONE1")
-CASE2:
-PRINT (" ORZIONE2")
-CASE3:
-PRINT (" ORZIONE3")
-CASE0:
-PRINT (" uscita in corso")
-interrompi
-default:
-	print(“scelta nhon valida”)
-fine switch
-fine while
-
-
-
+somma=0
+array numeri=[]
+x=insedrire numero di elementi dell lista
+for i in range x:
+lista numeri(i)= inserisci numero
+se lista numeri(-1)=0 allora 
+for i in lista numeri:
+somma+=i
+media= somma/len(lista numeri)
+print(media)
+altrimenti
+print(“sequenza non termina con 0”)
 

@@ -4,9 +4,9 @@ const readline = require('readline').createInterface({
 });
 
 let numeri = [];
-let somma = 0;
+let numeri2 = [];
 
-readline.question("Inserire numero di elementi della lista: ", (input) => {
+readline.question("Numero elementi: ", (input) => {
   let x = parseInt(input);
   let i = 0;
 
@@ -18,13 +18,10 @@ readline.question("Inserire numero di elementi della lista: ", (input) => {
         inserisciNumero();
       });
     } else {
-      if (numeri[numeri.length - 1] === 0) {
-        numeri.forEach(n => somma += n);
-        let media = somma / numeri.length;
-        console.log(`La media è: ${media}`);
-      } else {
-        console.log("Sequenza non termina con 0");
+      for (let j = 1; j <= numeri.length; j++) {
+        numeri2.push(numeri[numeri.length - j]);
       }
+      console.log("Array al contrario:", numeri2);
       readline.close();
     }
   }

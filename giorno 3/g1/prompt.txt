@@ -1,13 +1,7 @@
-dato il seguente pseudocodice trrasforma in codice python/javascript che funziona:
-a=0
-b=0
-c=0
-a=int(input(metti 1 numero))
-b=int(input(metti 1 numero))
-c=int(input(metti 1 numero))
-if a >b and a >c then:
-\   print a è in numero più grande
-if b >c and b >a then:
-\   print b è in numero più grande
-if c >b and c >a then:
-\   print c è in numero più grande
+calocalare il fattoriale di un numero
+
+contatore=0
+x=int(input(“scrivi un numero”))
+for i in range(x-1)
+contatore=x*x-1
+print(contatore)

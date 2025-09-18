@@ -1,0 +1,13 @@
+dato il seguente pseudocodice trrasforma in codice python/javascript che funziona:
+
+caricare un array di 10numeri estampalo al contrario
+array numeri=[] 
+arraynumeri2=[]
+x=input numero elementi
+for i in range x:
+riempi array numeri con input utente
+for i len array numeri:
+array2(i) = array
+(-i)
+print array2
+
