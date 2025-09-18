@@ -1,0 +1,5 @@
+dato il seguente pseudocodice trrasforma in codice python/javascript che funziona:
+scrivi l anno ()
+a= leggi ()
+    se a è divisibile per 4 ma non per 100 o se a è divisbile per 400 
+    allora print (A è BISISTILE)
