@@ -1,5 +1,12 @@
 dato il seguente pseudocodice trrasforma in codice python/javascript che funziona:
-scrivi l anno ()
-a= leggi ()
-    se a è divisibile per 4 ma non per 100 o se a è divisbile per 400 
-    allora print (A è BISISTILE)
+Trovare il valore minimo e massimo all'interno di un array.
+inizializza array "array"
+assegna a variabile x input utente per numero di elementi di cui l'array deve essere composto
+for itera per x volte input che riempie vettore con numero scelto da utente
+inizializza variabile max
+inizializza variabile min
+for che scorre array:
+    se i è maggiore di max allora max=i
+    se i è minore di min allora min=i
+stampa max
+stampa min
